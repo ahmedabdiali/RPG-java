@@ -1,6 +1,8 @@
-public enum Armor {
-    Cloth,
-    Leather,
-    Mail,
-    Plate
+public class Armor {
+    public enum armor {
+        Cloth,
+        Leather,
+        Mail,
+        Plate
+    }
 }
