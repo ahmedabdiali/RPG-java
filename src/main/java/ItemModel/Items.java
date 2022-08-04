@@ -6,6 +6,28 @@ public abstract class Items {
     private String Name;
     private int RequiredLevel;
     private Slot slot;
-    //missing calculate of DPS
 
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String name) {
+        Name = name;
+    }
+
+    public int getRequiredLevel() {
+        return RequiredLevel;
+    }
+
+    public void setRequiredLevel(int requiredLevel) {
+        RequiredLevel = requiredLevel;
+    }
+
+    public Slot getSlot() {
+        return slot;
+    }
+
+    public void setSlot(Slot slot) {
+        this.slot = slot;
+    }
 }
