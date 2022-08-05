@@ -2,10 +2,16 @@ package ItemModel;
 
 import java.util.HashMap;
 
-public abstract class Items {
+public class Items {
     private String Name;
     private int RequiredLevel;
-    private Slot slot;
+    public Slot slot;
+
+    public Items(String name, int requiredLevel, Slot slot) {
+        Name = name;
+        RequiredLevel = requiredLevel;
+        this.slot = slot;
+    }
 
     public String getName() {
         return Name;
