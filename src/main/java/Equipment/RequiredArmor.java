@@ -1,11 +1,17 @@
 package Equipment;
 
 import Attribute.PrimaryAttribute;
+import ItemModel.Items;
+import ItemModel.Slot;
 
-public class RequiredArmor {
+public class RequiredArmor extends Items {
     public Armor armor;
     public PrimaryAttribute primaryAttribute;
     public int level;
+
+    public RequiredArmor(String name, int requiredLevel, Slot slot) {
+        super(name, requiredLevel, slot);
+    }
 
     public Armor getArmor() {
         return armor;
