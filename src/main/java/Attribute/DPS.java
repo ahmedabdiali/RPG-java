@@ -1,6 +1,9 @@
 package Attribute;
 
 public class DPS {
+    /*
+    *here i have getter and setters for Attack and attackSpeed
+    * */
     public double Damage;
     public double AttackSpeed;
 

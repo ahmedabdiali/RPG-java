@@ -11,7 +11,9 @@ public class Stats {
      int Strength;
      int Dexterity;
      int Intelligence;
-
+/*
+* Constructor that i'll be using in Character class
+* */
     public Stats(int level, String name, PrimaryAttribute primaryAttribute) {
         this.name = name;
         this.level = level;
@@ -23,7 +25,9 @@ public class Stats {
         );
     }
 
-
+/*
+* here i have the logic that will level up the Characters(Hero's)
+* */
     public void levelUp(PrimaryAttribute primaryAttribute){
         this.setLevel(this.level + 1);
         this.primaryAttribute.setStrength(primaryAttribute.getStrength() + this.totalAttribute.getStrength());
@@ -39,7 +43,9 @@ public class Stats {
 
 
     @Override
-
+/*
+* here im using toString that will be displaying on main APP
+* */
     public String toString() {
 
         return "Stats { " +

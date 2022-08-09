@@ -3,7 +3,9 @@ package Equipment;
 import Attribute.PrimaryAttribute;
 import ItemModel.Items;
 import ItemModel.Slot;
-
+/*
+ * getters and setters for weapons, level, PrimaryAttribute
+ * */
 public class RequiredWeapon extends Items {
     public Weapons weapons;
     public PrimaryAttribute primaryAttribute;

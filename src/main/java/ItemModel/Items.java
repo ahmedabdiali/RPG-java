@@ -12,7 +12,9 @@ public class Items {
         RequiredLevel = requiredLevel;
         this.slot = slot;
     }
-
+/*
+* getters and setters for slot,requiredLevel and Name
+* */
     public String getName() {
         return Name;
     }

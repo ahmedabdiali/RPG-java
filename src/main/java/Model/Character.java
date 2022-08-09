@@ -78,7 +78,9 @@ public class  Character {
 
     public Stats characterStatus(Hero hero)throws InvalidClassException {
         int level=1;
-
+    /*
+    * getting the base and the level up for the heroes
+    **/
         switch (hero){
             case Mage -> {
                 PrimaryAttribute base = new PrimaryAttribute(1,1,8);
@@ -105,6 +107,9 @@ public class  Character {
         }
         throw new InvalidClassException("Invalid Exception");
     }
+    /*
+    * getting armors each hero can have
+    * */
     public Armor[] getArmor(Hero hero) throws Exception {
         switch (hero){
             case Mage -> {
